@@ -1,0 +1,13 @@
+.container {
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #daacac;
+    border: 1px solid #000;
+}
