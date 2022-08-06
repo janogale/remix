@@ -31,3 +31,21 @@ export default function App() {
     </html>
   );
 }
+
+
+export function ErrorBoundary({ error }: any) {
+  console.error(error);
+  return (
+    <html>
+      <head>
+        <title>Oh no!</title>
+        <Meta />
+        <Links />
+      </head>
+      <body>
+        <div>Oh no! error occured: {error?.message}</div>
+        <Scripts />
+      </body>
+    </html>
+  );
+}

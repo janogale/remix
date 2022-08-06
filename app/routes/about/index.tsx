@@ -11,10 +11,10 @@ export async function loader() {
 }
 
 export default function Index() {
-  const { title, coder, company, email, phone } = useLoaderData();
+  const { title, coder, company, email, phone } = useLoaderData()
   return (
     <div>
-      <h1>About Me</h1>
+      <h1>About m3</h1>
       <p>
         My name is <strong>{coder}</strong> I am a {title} who is passionate
         about building web applications.
